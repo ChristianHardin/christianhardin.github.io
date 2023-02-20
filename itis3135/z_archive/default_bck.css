@@ -1,0 +1,101 @@
+:root {
+ --bg-color: #04151F;
+ --text-color: #EFD6AC;
+ --color-one: #04151f;
+ --color-two: #183a37;
+ --color-three: #efd6ac;
+ --color-four: #c44900;
+ --color-five: #432534;
+
+ --font-one: 'Arimo', sans-serif;
+ --font-two: 'Exo', sans-serif;
+ --font-three: 'Titillium Web', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--color-two);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--color-five);
+}
+
+
+body {
+    height: 100vh;
+    font-family: var(--font-two);
+    background-color: var(--color-one);
+    color: var(--color-three);
+    
+}
+
+nav {
+    background-color: var(--color-five);
+}
+
+.navlinks {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.navlinks :hover {
+    background-color: var(--color-five);
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-three);
+}
+
+main {
+    color: var(--color-five);
+    font-family: var(--font-three);
+    font-size: 24px;
+    font-weight: 600;
+    margin: auto;
+    width: 80%;
+    border-radius: 5px;
+    background-color: var(--color-three);
+}
+
+footer {
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.outlinks ul {
+    margin: 0;
+    padding: 0;
+}
+
+.outlinks li {
+    display: inline;
+    padding: 20px;
+}
+
+.archivelinks a {
+    color: var(--color-five);
+    text-decoration: underline;
+}
+
+.validation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.validation li {
+    float: inline-start;
+}

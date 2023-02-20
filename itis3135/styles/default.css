@@ -1,0 +1,140 @@
+:root {
+    --background-color-primary: #121212;
+    --background-color-secondary: #292929;
+    --background-color-ter: #525252;
+    --background-color-quat:#6a6a6a;
+    --text-color-primary: #f0f8ff;
+    --main-font-size: 16px;
+    --paragraph-font: 'Montserrat', sans-serif;
+    --paragraph-font-alt:'Roboto', sans-serif;
+    --header-font:'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+}
+
+a, ul, li {
+    font-family: var(--header-font);
+    color: var(--text-color-primary)
+}
+
+form {
+    font-family: var(--paragraph-font-alt);
+}
+
+a:hover {
+    color: var(--background-color-ter);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-size: var(--main-font-size);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color-primary);
+    color: var(--text-color-primary);
+    font-size: var(--main-font-size);
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+/* Main */
+.main-header {
+    margin-top: 0;
+    padding: .5rem 0;
+    background-color: var(--background-color-primary);
+}
+
+main {
+    background-color: var(--background-color-secondary);
+    margin: auto;
+    width: 70%;
+    min-height: 100vh; 
+    height: 100%;
+}
+
+/* Side Navigation */
+header {
+    position: fixed;
+    width: 3rem;
+    height: 100vh;
+    background-color: var(--background-color-secondary);
+    transition: width 600ms ease;
+}
+
+header:hover {
+    width: 12rem;
+}
+
+header:hover > nav {
+    width: 12rem;
+    
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color-primary);
+}
+
+nav a:hover {
+    color: var(--text-color-primary);
+}
+
+.sidelink {
+    width: 100%;
+}
+
+.sidelink:hover {
+    background-color: var(--background-color-ter);
+}
+
+.link-content {
+    margin: 0.6rem 0.1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.context {
+    margin-left: 1rem;
+}
+
+/* Bottom Navigation */
+
+footer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 100vw;
+    height: 1.5rem;
+    bottom: 0;
+    background-color: var(--background-color-ter);
+    transition: height 600ms ease;
+}
+
+.footlink {
+    color: var(--text-color-primary);
+    margin: 0 1rem;
+}
+
+.footlink:hover {
+    color: var(--background-color-secondary);
+}
+
+.introductionPhoto {
+    text-align: center;
+    font-family: var(--paragraph-font-alt);
+}

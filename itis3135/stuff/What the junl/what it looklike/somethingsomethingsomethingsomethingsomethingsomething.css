@@ -1,0 +1,33 @@
+p {
+    text-align: center;
+    font-size: 50px;
+    margin: 200px 200px;
+    text-decoration: underline;
+    background-color: #222222;
+    border: 50px;
+    border-color: aqua;
+    border-style: dashed dotted solid hidden;
+    font-family: 'Comic Sans', sans-serif;
+}
+
+ul, li {
+    align-items: center;
+    text-align: center;
+    margin: -100px -100px;
+}
+
+h1 {
+    margin: auto;
+}
+
+h2 { 
+    margin: 20px;
+}
+
+h3 {
+    margin: 101px;
+}
+
+h1, h2 {
+    font-family: 'Papyrus', sans-serif;
+}

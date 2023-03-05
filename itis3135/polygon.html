@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/default.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <script src="./scripts/default.js"></script>
+    <script src="./scripts/polygon.js"></script>
+    <title>ITIS-3135 | Christian Hardin | The Oracle Frog Herman | Polygon </title>
+</head>
+<body onload="sideNavbar(), bottomNav()">
+    <header onmouseover="sideLinkHover()" onmouseout="sideLinkOff()">
+        <nav id="sideNavigationBar"></nav>
+    </header>
+
+    <main>
+        <h1 class="main-header">ITIS-3135 | Christian Hardin | The Oracle Frog Herman</h1>
+        <h2>PolyGon</h2>
+        <hr>
+        <dialog open>
+            <form action="#">
+                <label for="polygon_side_input">The Oracle Frog would like to know your number: </label>
+                <input type="text" name="polygon_side_input" id="polygon_side_input" placeholder="Polygon Sides"><br>
+                <p id="validation_output"></p>
+                <button type="button" id="button_send" onclick="validation()">Send</button> 
+            </form>
+        </dialog>
+    </main>
+
+    <footer onmouseover="copywrOn()" onmouseout="copywrOff()" id="bottomNavigationBar">
+        <div class='footlinks' id="footlinksdiv"></div>
+    </footer>
+</body>
+</html>

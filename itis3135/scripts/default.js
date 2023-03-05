@@ -136,7 +136,8 @@ function sideLinkHover()
                               "side7",
                               "side8",
                               "side9",
-                              "side10"];
+                              "side10",
+                              "side11"];
                               
     const contextChange = ["Home", 
                            "Introduction",
@@ -146,6 +147,7 @@ function sideLinkHover()
                            "Crappy Site",
                            "Website Evaluations",
                            "First Scripts",
+                           "Pentagon",
                            "HTML Validation",
                            "CSS Validation"];
     for (let i = 0; i < elementsToChange.length; i++) 
@@ -165,7 +167,8 @@ function sideLinkOff()
                               "side7",
                               "side8",
                               "side9",
-                              "side10"];
+                              "side10",
+                              "side11"];
     for (let i = 0; i < elementsToChange.length; i++) 
     {
         document.getElementById(elementsToChange[i]).textContent = "";
@@ -195,8 +198,9 @@ function sideNavbar() { // FOR INDEX PAGE ONLY
             "<a href='./itis3135/cr@@p p y.htm' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/site.svg' alt='site-ico' width='45' height='45'></div><div id='side6' class='context'></div></div></a>",
             "<a href='./itis3135/website_evaluations.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/evalutation.svg' alt='evaluation-ico' width='45' height='45'></div><div id='side7' class='context'></div></div></a>",
             "<a href='./itis3135/firstscripts.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/JS.svg' alt='js-ico' width='45' height='45'></div><div id='side8' class='context'></div></div></a>",
-            "<a href='https://validator.w3.org/check?uri=referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/html-icon.svg' alt='html-ico' width='45' height='45'></div><div id='side9' class='context'></div></div></a>",
-            "<a href='https://jigsaw.w3.org/css-validator/check/referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/css-icon.svg' alt='css-ico' width='45' height='45'></div><div id='side10' class='context'></div></div></a>"
+            "<a href='./itis3135/polygon.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/pentagon_icon.svg' alt='pentagon-ico' width='45' height='45'></div><div id='side9' class='context'></div></div></a>",
+            "<a href='https://validator.w3.org/check?uri=referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/html-icon.svg' alt='html-ico' width='45' height='45'></div><div id='side10' class='context'></div></div></a>",
+            "<a href='https://jigsaw.w3.org/css-validator/check/referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/css-icon.svg' alt='css-ico' width='45' height='45'></div><div id='side11' class='context'></div></div></a>"
         ]
 
         let navbar = "";
@@ -214,8 +218,9 @@ function sideNavbar() { // FOR INDEX PAGE ONLY
             "<a href='./cr@@p p y.htm' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/site.svg' alt='site-ico' width='45' height='45'></div><div id='side6' class='context'></div></div></a>",
             "<a href='./website_evaluations.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/evalutation.svg' alt='evaluation-ico' width='45' height='45'></div><div id='side7' class='context'></div></div></a>",
             "<a href='./firstscripts.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/JS.svg' alt='js-ico' width='45' height='45'></div><div id='side8' class='context'></div></div></a>",
-            "<a href='https://validator.w3.org/check?uri=referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/html-icon.svg' alt='html-ico' width='45' height='45'></div><div id='side9' class='context'></div></div></a>",
-            "<a href='https://jigsaw.w3.org/css-validator/check/referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/css-icon.svg' alt='css-ico' width='45' height='45'></div><div id='side10' class='context'></div></div></a>"
+            "<a href='./polygon.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/pentagon_icon.svg' alt='pentagon-ico' width='45' height='45'></div><div id='side9' class='context'></div></div></a>",
+            "<a href='https://validator.w3.org/check?uri=referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/html-icon.svg' alt='html-ico' width='45' height='45'></div><div id='side10' class='context'></div></div></a>",
+            "<a href='https://jigsaw.w3.org/css-validator/check/referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/css-icon.svg' alt='css-ico' width='45' height='45'></div><div id='side11' class='context'></div></div></a>"
         ]
 
         let navbar = "";
@@ -226,13 +231,6 @@ function sideNavbar() { // FOR INDEX PAGE ONLY
     } 
 }
 
-// Controls the bottom navigation bar to add link to thehardinguild.com
-
-
-/* <div class="footernav">
-            
-                
-             */
 function bottomNav() {
     let navbar = []
     let bottomNav = [

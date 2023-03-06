@@ -1,6 +1,8 @@
 function validation() {
     document.getElementById("validation_output").innerHTML = "";
     let userInput = document.getElementById("polygon_side_input").value;
+
+    if (userInput < 0) userInput = Math.abs(userInput);
     if (userInput < 0 || userInput > 10 || userInput == "") {
         document.getElementById("validation_output").innerHTML = "Input Invalid, enter a number between 0 and 10.";
     } else {

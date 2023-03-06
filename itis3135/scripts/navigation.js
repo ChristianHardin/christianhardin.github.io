@@ -22,7 +22,7 @@ function sideLinkHover()
                            "Crappy Site",
                            "Website Evaluations",
                            "First Scripts",
-                           "Pentagon",
+                           "Polygon",
                            "Calculator",
                            "HTML Validation",
                            "CSS Validation"];

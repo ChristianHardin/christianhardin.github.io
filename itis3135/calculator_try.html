@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/default.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./styles/calculator_try.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <script src="./scripts/calculator_try.js"></script>
+    <script src="./scripts/navigation.js"></script>
+    <title>ITIS-3135 | Christian Hardin | The Oracle Frog Herman | Calculator Attempt</title>
+</head>
+<body onload="sideNavbar(), bottomNav()">
+    <header onmouseover="sideLinkHover()" onmouseout="sideLinkOff()">
+        <nav id="sideNavigationBar"></nav>
+    </header>
+
+    <main>
+        <h1 class="main-header">ITIS-3135 | Christian Hardin | The Oracle Frog Herman</h1>
+        <h2>Calculator Attempt</h2>
+        <h3>Got this calculator to work, so skipped part 2.</h3>
+        
+        <table class="calculator" id="calculator">
+            <tr>
+                <th class="output" id="output" colspan="4">0</th>
+            </tr>
+            <tr>
+                <th><button name="add" value="+" onclick="operatorSelection('+')">+</button></th>
+                <th><button name="sub" value="-" onclick="operatorSelection('-')">-</button></th>
+                <th><button name="mul" value="*" onclick="operatorSelection('*')">*</button></th>
+                <th><button name="div" value="/" onclick="operatorSelection('/')">/</button></th>
+            </tr>
+            <tr>
+                <th><button name="7" value="7" onclick="selection(7)">7</button></th>
+                <th><button name="8" value="8" onclick="selection(8)">8</button></th>
+                <th><button name="9" value="9" onclick="selection(9)">9</button></th>
+                <th rowspan="4"><button name="equals" value="equals" onclick="operatorSelection('=')">=</button></th>
+            </tr>
+            <tr>
+                <th><button name="4" value="4" onclick="selection(4)">4</button></th>
+                <th><button name="5" value="5" onclick="selection(5)">5</button></th>
+                <th><button name="6" value="6" onclick="selection(6)">6</button></th>
+            </tr>
+            <tr>
+                <th><button name="1" value="1" onclick="selection(1)">1</button></th>
+                <th><button name="2" value="2" onclick="selection(2)">2</button></th>
+                <th><button name="3" value="3" onclick="selection(3)">3</button></th>
+            </tr> 
+            <tr>
+                <th><button name="0" value="0" onclick="selection(0)">0</button></th>
+                <th><button name="decimal" value="." onclick="selection('.')">.</button></th>
+                <th><button name="clear" value="clear" onclick="clearCalculator()">C</button></th>
+            </tr>
+
+        </table>
+
+    </main>
+
+    <footer onmouseover="copywrOn()" onmouseout="copywrOff()" id="bottomNavigationBar">
+        <div class='footlinks' id="footlinksdiv"></div>
+    </footer>
+</body>
+</html>

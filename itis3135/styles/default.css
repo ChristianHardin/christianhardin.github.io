@@ -23,6 +23,12 @@ form {
     font-family: var(--paragraph-font-alt);
 }
 
+
+tr, th, button {
+    font-family: var(--paragraph-font-alt);
+    font-size: 24px;
+}
+
 a:hover {
     color: var(--background-color-ter);
 }

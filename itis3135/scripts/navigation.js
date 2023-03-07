@@ -63,50 +63,26 @@ function sideNavbar() { // FOR INDEX PAGE ONLY
     let path = window.location.pathname;
     let fileName = path.split("/").pop();
 
+    const navbarElements = [
+        "<a href='./' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/home.svg' alt='home-ico' width='45' height='45'></div><div id='side1' class='context'></div></div></a>",
+        "<a href='./introduction.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/profile.svg' alt='profile-ico' width='45' height='45'></div><div id='side2' class='context'></div></div></a>",
+        "<a href='./itis3135.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/archive.svg' alt='archive-ico' width='45' height='45'></div><div id='side3' class='context'></div></div></a>",
+        "<a href='./tables.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/table.svg' alt='table-ico' width='45' height='45'></div><div id='side4' class='context'></div></div></a>",
+        "<a href='./forms.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/form.svg' alt='form-ico' width='45' height='45'></div><div id='side5' class='context'></div></div></a>",
+        "<a href='./cr@@p p y.htm' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/site.svg' alt='site-ico' width='45' height='45'></div><div id='side6' class='context'></div></div></a>",
+        "<a href='./website_evaluations.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/evalutation.svg' alt='evaluation-ico' width='45' height='45'></div><div id='side7' class='context'></div></div></a>",
+        "<a href='./firstscripts.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/JS.svg' alt='js-ico' width='45' height='45'></div><div id='side8' class='context'></div></div></a>",
+        "<a href='./polygon.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/pentagon_icon.svg' alt='pentagon-ico' width='45' height='45'></div><div id='side9' class='context'></div></div></a>",
+        "<a href='./calculator_try.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/calculator.svg' alt='calculator-ico' width='45' height='45'></div><div id='side10' class='context'></div></div></a>",
+        "<a href='https://validator.w3.org/check?uri=referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/html-icon.svg' alt='html-ico' width='45' height='45'></div><div id='side11' class='context'></div></div></a>",
+        "<a href='https://jigsaw.w3.org/css-validator/check/referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/css-icon.svg' alt='css-ico' width='45' height='45'></div><div id='side12' class='context'></div></div></a>"
+    ]
 
-
-    if (fileName == ""){
-        const navbarElements = [
-            "<a href='./' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/home.svg' alt='home-ico' width='45' height='45'></div><div id='side1' class='context'></div></div></a>",
-            "<a href='./itis3135/introduction.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/profile.svg' alt='profile-ico' width='45' height='45'></div><div id='side2' class='context'></div></div></a>",
-            "<a href='./itis3135/itis3135.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/archive.svg' alt='archive-ico' width='45' height='45'></div><div id='side3' class='context'></div></div></a>",
-            "<a href='./itis3135/tables.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/table.svg' alt='table-ico' width='45' height='45'></div><div id='side4' class='context'></div></div></a>",
-            "<a href='./itis3135/forms.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/form.svg' alt='form-ico' width='45' height='45'></div><div id='side5' class='context'></div></div></a>",
-            "<a href='./itis3135/cr@@p p y.htm' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/site.svg' alt='site-ico' width='45' height='45'></div><div id='side6' class='context'></div></div></a>",
-            "<a href='./itis3135/website_evaluations.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/evalutation.svg' alt='evaluation-ico' width='45' height='45'></div><div id='side7' class='context'></div></div></a>",
-            "<a href='./itis3135/firstscripts.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/JS.svg' alt='js-ico' width='45' height='45'></div><div id='side8' class='context'></div></div></a>",
-            "<a href='./itis3135/polygon.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/pentagon_icon.svg' alt='pentagon-ico' width='45' height='45'></div><div id='side9' class='context'></div></div></a>",
-            "<a href='./itis3135/calculator_try.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/calculator.svg' alt='calculator-ico' width='45' height='45'></div><div id='side10' class='context'></div></div></a>",
-            "<a href='https://validator.w3.org/check?uri=referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/html-icon.svg' alt='html-ico' width='45' height='45'></div><div id='side11' class='context'></div></div></a>",
-            "<a href='https://jigsaw.w3.org/css-validator/heck/referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./itis3135/images/css-icon.svg' alt='css-ico' width='45' height='45'></div><div id='side12' class='context'></div></div></a>"        ]
-
-        let navbar = "";
-        for (let i = 0; i < navbarElements.length; i++) {
-            navbar = navbar + navbarElements[i];
-        }
-        document.getElementById("sideNavigationBar").innerHTML = navbar
-    } else {
-        const navbarElements = [
-            "<a href='../' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/home.svg' alt='home-ico' width='45' height='45'></div><div id='side1' class='context'></div></div></a>",
-            "<a href='./introduction.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/profile.svg' alt='profile-ico' width='45' height='45'></div><div id='side2' class='context'></div></div></a>",
-            "<a href='./itis3135.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/archive.svg' alt='archive-ico' width='45' height='45'></div><div id='side3' class='context'></div></div></a>",
-            "<a href='./tables.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/table.svg' alt='table-ico' width='45' height='45'></div><div id='side4' class='context'></div></div></a>",
-            "<a href='./forms.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/form.svg' alt='form-ico' width='45' height='45'></div><div id='side5' class='context'></div></div></a>",
-            "<a href='./cr@@p p y.htm' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/site.svg' alt='site-ico' width='45' height='45'></div><div id='side6' class='context'></div></div></a>",
-            "<a href='./website_evaluations.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/evalutation.svg' alt='evaluation-ico' width='45' height='45'></div><div id='side7' class='context'></div></div></a>",
-            "<a href='./firstscripts.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/JS.svg' alt='js-ico' width='45' height='45'></div><div id='side8' class='context'></div></div></a>",
-            "<a href='./polygon.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/pentagon_icon.svg' alt='pentagon-ico' width='45' height='45'></div><div id='side9' class='context'></div></div></a>",
-            "<a href='./calculator_try.html' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/calculator.svg' alt='calculator-ico' width='45' height='45'></div><div id='side10' class='context'></div></div></a>",
-            "<a href='https://validator.w3.org/check?uri=referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/html-icon.svg' alt='html-ico' width='45' height='45'></div><div id='side11' class='context'></div></div></a>",
-            "<a href='https://jigsaw.w3.org/css-validator/check/referer' class='sidelink'> <div class='link-content'> <div class='icon'><img src='./images/css-icon.svg' alt='css-ico' width='45' height='45'></div><div id='side12' class='context'></div></div></a>"
-        ]
-
-        let navbar = "";
-        for (let i = 0; i < navbarElements.length; i++) {
-            navbar = navbar + navbarElements[i];
-        }
-        document.getElementById("sideNavigationBar").innerHTML = navbar
-    } 
+    let navbar = "";
+    for (let i = 0; i < navbarElements.length; i++) {
+        navbar = navbar + navbarElements[i];
+    }
+    document.getElementById("sideNavigationBar").innerHTML = navbar
 }
 
 function bottomNav() {

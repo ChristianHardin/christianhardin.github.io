@@ -1,0 +1,78 @@
+:root {
+    /* Colors following Tokyo Night Color Pallet  */
+    /* https://github.com/enkia/tokyo-night-vscode-theme */
+    --color-one: #f7768e;	
+    --color-two: #ff9e64; 
+    --color-three: #e0af68; 
+    --color-four: #9ece6a; 
+    --color-five: #73daca; 
+    --color-six: #b4f9f8; 
+    --color-seven: #2ac3de; 
+    --color-eight: #7dcfff; 
+    --color-nine: #7aa2f7; 
+    --color-ten: #bb9af7; 
+    --color-eleven: #c0caf5; 
+    --color-twelve: #a9b1d6; 
+    --color-thirteen: #9aa5ce; 
+    --color-fourteen: #cfc9c2; 
+    --color-fifteen: #565f89; 
+    --color-sixteen: #414868; 
+    --color-seventeen: #24283b; 
+    --color-eighteen: #1a1b26;
+
+    --background-color: #1a1b26;
+    --background-alt: #24283b;
+
+    --background-accent-one: #bb9af7;
+    --background-accent-two: #9ece6a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white; /* To be changed */
+}
+body {
+    background-color: var(--background-color);
+}
+
+nav {
+    position: fixed;
+    height: 100vh;
+    width: 3rem;
+    top: 0;
+    background-color: var(--background-alt);
+    border-right: 1px solid var(--background-accent-one);
+    transition: width .5s;
+}
+
+nav:hover {
+    width: 15rem;
+}
+
+header{
+    margin: 10px auto 0px;
+    margin-top: 10px;
+    width: 70%;
+    height: 3rem;
+    background-color: var(--background-alt);
+    border: 1px solid var(--background-accent-one);
+}
+
+main {
+    margin: 0px auto 2rem;
+    min-height: calc((100vh - 5rem) - 20px);
+    width: 70%;
+    background-color: var(--background-alt);
+    border: 1px solid var(--background-accent-two);
+    border-top: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 2rem;
+    width: 100%;
+    background-color: var(--background-alt);
+    border-top: 1px solid var(--background-accent-one);
+}

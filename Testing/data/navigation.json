@@ -1,0 +1,25 @@
+[
+    {
+        "url": "index.html",
+        "icon": "./images/home.svg",
+        "iconAlt": "testIconAlt",
+        "text": "Home",
+        "alt": "Example HomePage"
+    },
+
+    {
+        "url": "t1",
+        "icon": "testIcon2",
+        "iconAlt": "testIconAlt",
+        "text": "test1",
+        "alt": "Test1"
+    },
+
+    {
+        "url": "t2",
+        "icon": "testIcon3",
+        "iconAlt": "testIconAlt",
+        "text": "test2",
+        "alt": "Test2"
+    }
+]

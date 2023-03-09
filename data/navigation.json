@@ -8,7 +8,7 @@
     },
 
     {
-        "url": "t1",
+        "url": "t1.html",
         "icon": "./images/profile.svg",
         "iconAlt": "testIconAlt",
         "text": "test1",

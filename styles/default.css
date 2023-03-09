@@ -60,6 +60,7 @@ body {
     background-color: var(--background-color);
     border: 1px solid var(--background-accent-one);
     border-right: 0px;
+    border-radius: 10px 0 0 10px;
 }
 
 header{
@@ -70,6 +71,7 @@ header{
     align-items: center;
     background-color: var(--background-alt);
     border: 1px solid var(--background-accent-one);
+    border-radius: 10px 10px 0 0;
 }
 
 header>h1 {
@@ -83,6 +85,7 @@ main {
     background-color: var(--background-alt);
     border: 1px solid var(--background-accent-two);
     border-top: 0px;
+    border-radius: 0 0 10px 10px;
 }
 
 footer {

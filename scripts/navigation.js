@@ -6,15 +6,17 @@ $(document).ready(function() {
         // On mouseOn
         $(this).css("width", "10rem");
         $.fn.navigationTextOn(true);
+        console.log("NAVIGATION: hovered")
     }, function() {
         // On mouseOff
         $(this).css("width", "3rem");
         $.fn.navigationTextOn(false);
+        console.log("NAVIGATION: un-hovered")
     });
 });
 
 // Function To handle side bar navigation
-$.fn.navigationTextOn = function(textBool){ 
+$.fn.navigationTextOn = function(textBool){
     const pathname = String(location.pathname.split("/").pop());
     $.getJSON("./data/navigation.json", function(data) {
         const navigationObject = data;

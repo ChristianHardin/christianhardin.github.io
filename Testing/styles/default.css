@@ -36,7 +36,7 @@ body {
     background-color: var(--background-color);
 }
 
-nav {
+#sideNavigationLinks {
     position: fixed;
     height: 100vh;
     width: 3rem;
@@ -46,13 +46,34 @@ nav {
     transition: width .5s;
 }
 
+#sideNavigationLinks>ul>li {
+    padding-top: .5rem;
+}
+
+#sideNavigationLinks>ul>li>a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#sideNavigationLinks>ul>li>a:hover {
+    background-color: var(--background-color);
+    border: 1px solid var(--background-accent-one);
+    border-right: 0px;
+}
+
 header{
+    display: flex;
     margin: 10px auto 0px;
-    margin-top: 10px;
     width: 70%;
     height: 3rem;
+    align-items: center;
     background-color: var(--background-alt);
     border: 1px solid var(--background-accent-one);
+}
+
+header>h1 {
+    padding-left: 10px;
 }
 
 main {

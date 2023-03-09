@@ -5,21 +5,5 @@
         "iconAlt": "testIconAlt",
         "text": "Home",
         "alt": "Example HomePage"
-    },
-
-    {
-        "url": "t1.html",
-        "icon": "./images/profile.svg",
-        "iconAlt": "testIconAlt",
-        "text": "test1",
-        "alt": "Test1"
-    },
-
-    {
-        "url": "t2",
-        "icon": "./images/archive.svg",
-        "iconAlt": "testIconAlt",
-        "text": "test2",
-        "alt": "Test2"
     }
 ]

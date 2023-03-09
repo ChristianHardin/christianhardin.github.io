@@ -9,7 +9,7 @@
 
     {
         "url": "t1",
-        "icon": "testIcon2",
+        "icon": "./images/profile.svg",
         "iconAlt": "testIconAlt",
         "text": "test1",
         "alt": "Test1"
@@ -17,7 +17,7 @@
 
     {
         "url": "t2",
-        "icon": "testIcon3",
+        "icon": "./images/archive.svg",
         "iconAlt": "testIconAlt",
         "text": "test2",
         "alt": "Test2"

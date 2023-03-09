@@ -46,10 +46,6 @@ nav {
     transition: width .5s;
 }
 
-nav:hover {
-    width: 15rem;
-}
-
 header{
     margin: 10px auto 0px;
     margin-top: 10px;

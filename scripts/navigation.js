@@ -2,16 +2,22 @@
 $(document).ready(function() {
     console.log("JQuery Loaded");
     $.fn.navigationTextOn(false);
+
+    let isMouseHovering = false
     $("#sideNavigationLinks").hover(function() {
         // On mouseOn
-        $(this).css("width", "10rem");
-        $.fn.navigationTextOn(true);
-        console.log("NAVIGATION: hovered")
+        if (!isMouseHovering) {
+            $.fn.navigationTextOn(true);
+            $(this).css("width", "10rem");
+            console.log("NAVIGATION: hovered");
+        }
+        isMouseHovering = true;
     }, function() {
         // On mouseOff
-        $(this).css("width", "3rem");
         $.fn.navigationTextOn(false);
-        console.log("NAVIGATION: un-hovered")
+        $(this).css("width", "3rem");
+        isMouseHovering = false;
+        console.log("NAVIGATION: un-hovered");
     });
 });
 

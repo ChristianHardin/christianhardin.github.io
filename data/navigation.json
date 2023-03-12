@@ -1,5 +1,7 @@
 [
     {
+        "type": "mainNavigation",
+        "id": "mainNavigationHome",
         "url": "index.html",
         "icon": "./images/home_icon.svg",
         "iconAlt": "Home-icon",
@@ -8,6 +10,8 @@
     },
 
     {
+        "type": "mainNavigation",
+        "id": "mainNavigationIntroduction",
         "url": "introduction.html",
         "icon": "./images/introduction_icon.svg",
         "iconAlt": "tbf",
@@ -16,6 +20,8 @@
     },
 
     {
+        "type": "mainNavigation",
+        "id": "mainNavigationArchive",
         "url": "itis3135.html",
         "icon": "tbf",
         "iconAlt": "tbf",
@@ -24,6 +30,8 @@
     },
 
     {
+        "type": "mainNavigation",
+        "id": "mainNavigationTable",
         "url": "tables.html",
         "icon": "tbf",
         "iconAlt": "tbf",
@@ -32,6 +40,8 @@
     },
 
     {
+        "type": "mainNavigation",
+        "id": "mainNavigationForm",
         "url": "forms.html",
         "icon": "tbf",
         "iconAlt": "tbf",
@@ -40,6 +50,8 @@
     },
 
     {
+        "type": "mainNavigation",
+        "id": "mainNavigationWebsiteEvaluation",
         "url": "website_evaluation.html",
         "icon": "tbf",
         "iconAlt": "tbf",
@@ -48,6 +60,8 @@
     },
 
     {
+        "type": "mainNavigation",
+        "id": "mainNavigationFirstScripts",
         "url": "firstscripts.html",
         "icon": "tbf",
         "iconAlt": "tbf",
@@ -56,6 +70,8 @@
     },
 
     {
+        "type": "mainNavigation",
+        "id": "mainNavigationPolygon",
         "url": "polygon.html",
         "icon": "tbf",
         "iconAlt": "tbf",
@@ -64,10 +80,76 @@
     },
 
     {
+        "type": "mainNavigation",
+        "id": "mainNavigationCalculatorTry",
         "url": "calculator_try.html",
         "icon": "tbf",
         "iconAlt": "tbf",
         "text": "Calculator",
         "alt": "Calculator Page"
+    },
+
+    {
+        "type": "altNavigation",
+        "id": "altNavigation",
+        "url": "https://webpages.charlotte.edu/chardi28/",
+        "text": "CLT Site",
+        "alt": "College Webpage"
+    },
+
+    {
+        "type": "altNavigation",
+        "id": "altNavigation",
+        "url": "https://github.com/ChristianHardin",
+        "text": "Github",
+        "alt": "Github Profile"
+    },
+
+    {
+        "type": "altNavigation",
+        "id": "altNavigation",
+        "url": "https://christianhardin.github.io/",
+        "text": "Github.io",
+        "alt": "Github Page"
+    },
+
+    {
+        "type": "altNavigation",
+        "id": "altNavigation",
+        "url": "https://github.com/ChristianHardin/ITIS-3135",
+        "text": "Github Course",
+        "alt": "Github ITIS-3135 Course"
+    },
+
+    {
+        "type": "altNavigation",
+        "id": "altNavigation",
+        "url": "https://www.freecodecamp.org/Christian_Hardin",
+        "text": "FreeCodeCamp",
+        "alt": "FreeCodeCamp Profile"
+    },
+
+    {
+        "type": "altNavigation",
+        "id": "altNavigation",
+        "url": "https://www.codecademy.com/profiles/mega8605263637",
+        "text": "CodeAcademy",
+        "alt": "CodeAcademy Profile"
+    },
+
+    {
+        "type": "altNavigation",
+        "id": "altNavigation",
+        "url": "https://www.linkedin.com/in/christian-hardin-a313481b9",
+        "text": "LinkedIn",
+        "alt": "LinkedIn Profile"
+    },
+
+    {
+        "type": "altNavigation",
+        "id": "altNavigation",
+        "url": "https://thehardinguild.com/",
+        "text": "Made By ©2023 The Hardin Guild",
+        "alt": "Designer Page"
     }
 ]

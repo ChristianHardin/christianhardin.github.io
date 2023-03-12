@@ -1,9 +1,73 @@
 [
     {
         "url": "index.html",
-        "icon": "./images/home.svg",
-        "iconAlt": "testIconAlt",
+        "icon": "./images/home_icon.svg",
+        "iconAlt": "Home-icon",
         "text": "Home",
-        "alt": "Example HomePage"
+        "alt": "Home Page"
+    },
+
+    {
+        "url": "introduction.html",
+        "icon": "./images/introduction_icon.svg",
+        "iconAlt": "tbf",
+        "text": "Introduction",
+        "alt": "Introduction Page"
+    },
+
+    {
+        "url": "itis3135.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "Archive",
+        "alt": "Archive Page"
+    },
+
+    {
+        "url": "tables.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "HTML Table",
+        "alt": "HTML Table Page"
+    },
+
+    {
+        "url": "forms.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "HTML Form",
+        "alt": "HTML Form Page"
+    },
+
+    {
+        "url": "website_evaluation.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "Website Evaluation",
+        "alt": "Website Evaluation Page"
+    },
+
+    {
+        "url": "firstscripts.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "First Scripts",
+        "alt": "First Scripts Page"
+    },
+
+    {
+        "url": "polygon.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "Polygon",
+        "alt": "Polygon Page"
+    },
+
+    {
+        "url": "calculator_try.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "Calculator",
+        "alt": "Calculator Page"
     }
 ]

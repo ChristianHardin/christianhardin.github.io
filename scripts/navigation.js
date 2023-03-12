@@ -9,7 +9,7 @@ $(document).ready(function() {
         if (!isMouseHovering) {
             $.fn.navigationTextOn(true);
             $(this).css("width", "10rem");
-            console.log("NAVIGATION: hovered");
+            // console.log("NAVIGATION: hovered");
         }
         isMouseHovering = true;
     }, function() {
@@ -17,7 +17,7 @@ $(document).ready(function() {
         $.fn.navigationTextOn(false);
         $(this).css("width", "3rem");
         isMouseHovering = false;
-        console.log("NAVIGATION: un-hovered");
+        // console.log("NAVIGATION: un-hovered");
     });
 });
 

@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/default.css">
+
+    <!-- Font Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-    <script src="./scripts/navigation.js"></script>
-    <title>ITIS-3135 | Christian Hardin's The Oracle Frog Herman | HTML Form </title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&display=swap" rel="stylesheet">
 
+    <!-- JavScripts Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./scripts/navigation.js"></script>
+
+    <!-- Style Sheet Link -->
+    <link rel="stylesheet" href="./styles/default.css">
+
+    <!-- Title Goes Here -->
+    <title>ITIS-3135 | Christian Hardin's The Oracle Frog Herman | Form</title>
+
+    <!-- To Be Removed -->
     <style>
         form {
             background-color: var(--background-color-ter);
             color: var( --text-color-primary);
             font-family: var(--paragraph-font-alt);
             font-size: 24px;
-            margin: auto;
             width: 30%;
             border-radius: 5px;
+            background-color: grey;
         }
         
         input[type=submit] {
@@ -27,53 +38,53 @@
             color: var( --text-color-primary)
         }
     </style>
-
 </head>
-<body onload="sideNavbar(), bottomNav()">
-    <header onmouseover="sideLinkHover()" onmouseout="sideLinkOff()">
-        <nav id="sideNavigationBar"></nav>
+<body>
+    <nav id="mainNavigationLinks"> </nav>
+    <header>
+        <h1>ITIS-3135 | Christian Hardin's The Oracle Frog Herman</h1>
     </header>
 
-
     <main>
-        <h1 class="main-header">ITIS-3135 | Christian Hardin's The Oracle Frog Herman</h1>
-        <h2>Html Form</h2>
-        <form action="#">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Enter Name" required>
-            <br>
-            <label for="phonenumber">Number</label>
-            <input type="tel" name="phonenumber" id="phonenumber"  placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-            <br>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter Email" required>
-            <br>
-            <label for="male">Male</label>
-            <input type="radio" name="radiogroup1" id="male" required>
-            <br>
-            <label for="female">Female</label>
-            <input type="radio" name="radiogroup1" id="female" required>
-            <br>
-            <label for="box1">I want to recieve news letters.</label>
-            <input type="checkbox" name="box1" id="box1">
-            <br>
-            <label for="box2">I accept the terms and conditions.</label>
-            <input type="checkbox" name="box2" id="box2" required>
-            <br>
-            <label for="select">Purpose of contact: </label>
-            <select name="select" id="select" required>
-                <option value="Inquiry">Inquiry</option>
-                <option value="Consultation">Consultation</option>
-                <option value="other">Other</option>
-            </select>
-            <br>
-            <input type="reset" value="Reset">
-            <input type="submit">
-        </form>
+        <div id="main-content">
+            <h2>Html Form</h2>
+            <form action="#">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Name" required>
+                <br>
+                <label for="phonenumber">Number</label>
+                <input type="tel" name="phonenumber" id="phonenumber"  placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email" required>
+                <br>
+                <label for="male">Male</label>
+                <input type="radio" name="radiogroup1" id="male" required>
+                <br>
+                <label for="female">Female</label>
+                <input type="radio" name="radiogroup1" id="female" required>
+                <br>
+                <label for="box1">I want to recieve news letters.</label>
+                <input type="checkbox" name="box1" id="box1">
+                <br>
+                <label for="box2">I accept the terms and conditions.</label>
+                <input type="checkbox" name="box2" id="box2" required>
+                <br>
+                <label for="select">Purpose of contact: </label>
+                <select name="select" id="select" required>
+                    <option value="Inquiry">Inquiry</option>
+                    <option value="Consultation">Consultation</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <input type="reset" value="Reset">
+                <input type="submit">
+            </form>
+        </div>
     </main>
 
-    <footer onmouseover="copywrOn()" onmouseout="copywrOff()" id="bottomNavigationBar">
-        <div class='footlinks' id="footlinksdiv"></div>
+    <footer>
+        <nav id="altNavigationLinks"></nav>
     </footer>
 </body>
 </html>

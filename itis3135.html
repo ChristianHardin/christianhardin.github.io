@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/default.css">
+
+    <!-- Font Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- JavScripts Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="./scripts/navigation.js"></script>
-    <title>ITIS-3135 | Christian Hardin's The Oracle Frog Herman | ITIS-3135 Archive </title>
+
+    <!-- Style Sheet Link -->
+    <link rel="stylesheet" href="./styles/default.css">
+
+    <!-- Title Goes Here -->
+    <title>ITIS-3135 | Christian Hardin's The Oracle Frog Herman | Archive</title>
 </head>
-<body onload="sideNavbar(), bottomNav()">
-    <header onmouseover="sideLinkHover()" onmouseout="sideLinkOff()">
-        <nav id="sideNavigationBar"></nav>
+<body>
+    <nav id="mainNavigationLinks"> </nav>
+    <header>
+        <h1>ITIS-3135 | Christian Hardin's The Oracle Frog Herman</h1>
     </header>
 
     <main>
-        <h1 class="main-header">ITIS-3135 | Christian Hardin's The Oracle Frog Herman</h1>
-        <h2>Archive</h2>
-		<div class="archivelinks">
-			<ul>
-				<li><a href="./tables.html">Activity 2: HTML Table</a></li>
-				<li><a href="./forms.html">Activity 3: HTML Form</a></li>
-				<li><a href="./cr@@p p y.htm">Crappy Site</a></li>
-                <li><a href="./website_evaluations.html">Website Evaluation</a></li>
-                <li><a href="./firstscripts.html">Activity 5: First Javascripts</a></li>
-                <li><a href="./polygon.html">Activity 6: Name the Polygon</a></li>
-                <li><a href="./calculator_try.html">Activity 7: Calculator</a></li>
-			</ul>
-		</div>
+        <div id="main-content">
+            <h2>Archive</h2>
+            <div class="archivelinks">
+                <ul>
+                    <li><a href="./tables.html">Activity 2: HTML Table</a></li>
+                    <li><a href="./forms.html">Activity 3: HTML Form</a></li>
+                    <li><a href="./cr@@p p y.htm">Crappy Site</a></li>
+                    <li><a href="./website_evaluations.html">Website Evaluation</a></li>
+                    <li><a href="./firstscripts.html">Activity 5: First Javascripts</a></li>
+                    <li><a href="./polygon.html">Activity 6: Name the Polygon</a></li>
+                    <li><a href="./calculator_try.html">Activity 7: Calculator</a></li>
+                </ul>
+            </div>
+        </div>
     </main>
 
-    <footer onmouseover="copywrOn()" onmouseout="copywrOff()" id="bottomNavigationBar">
-        <div class='footlinks' id="footlinksdiv"></div>
+    <footer>
+        <nav id="altNavigationLinks"></nav>
     </footer>
 </body>
 </html>

@@ -14,7 +14,7 @@
         "id": "mainNavigationIntroduction",
         "url": "introduction.html",
         "icon": "./images/introduction_icon.svg",
-        "iconAlt": "tbf",
+        "iconAlt": "Introduction-icon",
         "text": "Introduction",
         "alt": "Introduction Page"
     },
@@ -23,8 +23,8 @@
         "type": "mainNavigation",
         "id": "mainNavigationArchive",
         "url": "itis3135.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
+        "icon": "./images/archive.svg",
+        "iconAlt": "Archive-icon",
         "text": "Archive",
         "alt": "Archive Page"
     },
@@ -33,8 +33,8 @@
         "type": "mainNavigation",
         "id": "mainNavigationTable",
         "url": "tables.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
+        "icon": "./images/table.svg",
+        "iconAlt": "Table-icon",
         "text": "HTML Table",
         "alt": "HTML Table Page"
     },
@@ -43,8 +43,8 @@
         "type": "mainNavigation",
         "id": "mainNavigationForm",
         "url": "forms.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
+        "icon": "./images/form.svg",
+        "iconAlt": "Form-icon",
         "text": "HTML Form",
         "alt": "HTML Form Page"
     },
@@ -53,8 +53,8 @@
         "type": "mainNavigation",
         "id": "mainNavigationWebsiteEvaluation",
         "url": "website_evaluation.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
+        "icon": "./images/evaluation.svg",
+        "iconAlt": "Evaluation-icon",
         "text": "Website Evaluation",
         "alt": "Website Evaluation Page"
     },
@@ -63,8 +63,8 @@
         "type": "mainNavigation",
         "id": "mainNavigationFirstScripts",
         "url": "firstscripts.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
+        "icon": "./images/script.svg",
+        "iconAlt": "Script-icon",
         "text": "First Scripts",
         "alt": "First Scripts Page"
     },
@@ -73,8 +73,8 @@
         "type": "mainNavigation",
         "id": "mainNavigationPolygon",
         "url": "polygon.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
+        "icon": "./images/polygon.svg",
+        "iconAlt": "Polygon-icon",
         "text": "Polygon",
         "alt": "Polygon Page"
     },
@@ -83,8 +83,8 @@
         "type": "mainNavigation",
         "id": "mainNavigationCalculatorTry",
         "url": "calculator_try.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
+        "icon": "./images/calculator_try.svg",
+        "iconAlt": "Calculatory_Try-icon",
         "text": "Calculator Try",
         "alt": "Calculator Try Page"
     },
@@ -93,8 +93,8 @@
         "type": "mainNavigation",
         "id": "mainNavigationCalculatorFcc",
         "url": "calculator_fcc.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
+        "icon": "./images/calculator_fcc.svg",
+        "iconAlt": "Calculator_fcc-icon",
         "text": "Calculator Fcc",
         "alt": "Calculator Fcc Page"
     },
@@ -103,8 +103,8 @@
         "type": "mainNavigation",
         "id": "mainNavigationAccessability",
         "url": "Hardin-Activity_Accessibility.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
+        "icon": "./images/accessible.svg",
+        "iconAlt": "Accessible-icon",
         "text": "Accessibility",
         "alt": "Accessibility Page"
     },
@@ -113,18 +113,8 @@
         "type": "mainNavigation",
         "id": "mainNavigationArrays",
         "url": "arrays.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
-        "text": "Arrays",
-        "alt": "Arrays Page"
-    },
-
-    {
-        "type": "mainNavigation",
-        "id": "mainNavigationArrays",
-        "url": "arrays.html",
-        "icon": "tbf",
-        "iconAlt": "tbf",
+        "icon": "./images/array.svg",
+        "iconAlt": "Array-icon",
         "text": "Arrays",
         "alt": "Arrays Page"
     },

@@ -95,13 +95,24 @@ main {
     width: 90%;
 }
 
+/* Should be redone vv */
 dialog {
     margin: 10px auto;
 }
 
 dialog>form>* {
-    color: #1a1b26;
+    color: var(--background-color);
 }
+
+dialog>form>button {
+    color: white;
+}
+
+button {
+    background-color: var(--background-color);
+}
+
+/* End of ^^ */
 
 footer {
     position: fixed;

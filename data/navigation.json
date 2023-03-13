@@ -85,8 +85,48 @@
         "url": "calculator_try.html",
         "icon": "tbf",
         "iconAlt": "tbf",
-        "text": "Calculator",
-        "alt": "Calculator Page"
+        "text": "Calculator Try",
+        "alt": "Calculator Try Page"
+    },
+
+    {
+        "type": "mainNavigation",
+        "id": "mainNavigationCalculatorFcc",
+        "url": "calculator_fcc.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "Calculator Fcc",
+        "alt": "Calculator Fcc Page"
+    },
+
+    {
+        "type": "mainNavigation",
+        "id": "mainNavigationAccessability",
+        "url": "Hardin-Activity_Accessibility.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "Accessibility",
+        "alt": "Accessibility Page"
+    },
+
+    {
+        "type": "mainNavigation",
+        "id": "mainNavigationArrays",
+        "url": "arrays.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "Arrays",
+        "alt": "Arrays Page"
+    },
+
+    {
+        "type": "mainNavigation",
+        "id": "mainNavigationArrays",
+        "url": "arrays.html",
+        "icon": "tbf",
+        "iconAlt": "tbf",
+        "text": "Arrays",
+        "alt": "Arrays Page"
     },
 
     {

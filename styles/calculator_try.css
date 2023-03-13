@@ -1,4 +1,5 @@
 .calculator {
+    
     padding: 0;
     margin: auto;
     width: 500px;
@@ -24,6 +25,7 @@ th {
 }
 
 button {
+    color: #121212;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(#e9e9e9 80%, #292929);

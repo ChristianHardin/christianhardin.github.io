@@ -1,6 +1,73 @@
-function test() {
-    alert("Connection Established")
-}
+$( document ).ready(function() {
+    $( "#buttonDecimal" ).click(function() {
+        selection('.');
+    });
+
+    $( "#buttonClear" ).click(function() {
+        clearCalculator();
+    });
+
+    $( "#buttonAdd" ).click(function() {
+        operatorSelection('+');
+    });
+
+    $( "#buttonSub" ).click(function() {
+        operatorSelection('-');
+    });
+
+    $( "#buttonMul" ).click(function() {
+        operatorSelection('*');
+    });
+
+    $( "#buttonDiv" ).click(function() {
+        operatorSelection('/');
+    });
+
+    $( "#buttonEquals" ).click(function() {
+        operatorSelection('=');
+    });
+
+    $( "#button1" ).click(function() {
+        selection(1);
+    });
+
+    $( "#button2" ).click(function() {
+        selection(2);
+    });
+
+    $( "#button3" ).click(function() {
+        selection(3);
+    });
+
+    $( "#button4" ).click(function() {
+        selection(4);
+    });
+
+    $( "#button5" ).click(function() {
+        selection(5);
+    });
+
+    $( "#button6" ).click(function() {
+        selection(6);
+    });
+
+    $( "#button7" ).click(function() {
+        selection(7);
+    });
+
+    $( "#button8" ).click(function() {
+        selection(8);
+    });
+
+    $( "#button9" ).click(function() {
+        selection(9);
+    });
+
+    $( "#button0" ).click(function() {
+        selection(0);
+    });
+
+});
 
 let firstNumber  = null;
 let currentNumber = null;

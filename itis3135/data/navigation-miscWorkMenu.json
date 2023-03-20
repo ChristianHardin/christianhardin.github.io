@@ -1,0 +1,24 @@
+[
+    {
+        "type": "categoryMisc",
+        "title": "Misc. Work"
+    },
+
+    {
+        "type": "categoryMisc",
+        "id": "linkCrappyWebsite",
+        "url": "../cr@@p p y/cr@@p p y.htm",
+        "icon": "./images/icons/crappy.svg",
+        "iconAlt": "Crappy-icon",
+        "text": "Crappy Page"
+    },
+
+    {
+        "type": "categoryMisc",
+        "id": "linkAccessibility",
+        "url": "../Hardin_Activity_Accessibility/Hardin-Activity_Accessibility.html",
+        "icon": "./images/icons/accessibility.svg",
+        "iconAlt": "Accessibility-icon",
+        "text": "Accessibility"
+    }
+]

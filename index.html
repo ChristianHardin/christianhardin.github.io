@@ -1,38 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required Meta -->
+    <!-- Required meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font Links -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&display=swap" rel="stylesheet">
 
-    <!-- JavScripts Link -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="./scripts/navigation.js"></script>
 
-    <!-- Style Sheet Link -->
-    <link rel="stylesheet" href="./styles/default.css">
-
-    <!-- Title Goes Here -->
-    <title>ITIS-3135 | Christian Hardin's The Oracle Frog Herman | Home</title>
+    <title>Christian Hardin</title>
 </head>
+<style>
+    * {
+        font-family: 'Montserrat', sans-serif;
+        color: #0f130d;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+    
+    body {
+        background-color: #609966;
+    }
+
+    #selectorBox {
+        margin: auto;
+        height: 500px;
+        width: 500px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #selectors {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #selectionOne, #selectionTwo {
+        background-color: #9DC08B;
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+    }
+
+    #selectionOne:hover, #selectionTwo:hover {
+        background-color: #609966;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
 <body>
-    <nav id="mainNavigationLinks"> </nav>
-    <header>
-        <h1>Some Random Header Text</h1>
-    </header>
-
+    <header></header>
     <main>
-        
+        <div id="selectorBox">
+            <div id="content"><h1>Please Make a selection Below</h1></div>
+            <div id="selectors">
+                <div id="selectionOne">
+                    <a href="./itis3135/">
+                        <img src="./itis3135/images/icons/school.svg" alt="school-icon" height="100px" width="100px">
+                        <h2>ITIS-3135</h2>
+                    </a>
+                </div>
+                <div id="selectionTwo">
+                    <img src="./itis3135/images/icons/school.svg" alt="school-icon" height="100px" width="100px">
+                    <h2>Comming Soon...</h2>
+                </div>
+            </div>
+        </div>
     </main>
-
-    <footer>
-        <nav id="altNavigationLinks"></nav>
-    </footer>
+    <footer></footer>
 </body>
 </html>

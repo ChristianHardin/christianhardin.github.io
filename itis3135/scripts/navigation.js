@@ -11,6 +11,13 @@ $(document).ready(function() {
     });
 });
 
+
+function test() {
+    console.log("fuck")
+    $('header').css('border-radius','10p 10px 0 0')
+}
+
+// Loads School Work Menu on page load.
 let dataObj = "schoolWorkMenu";
 function onPageLoad() {
     $.getJSON("./data/navigation-category.json", function(data) {
@@ -30,6 +37,14 @@ function onPageLoad() {
     });
 }
 
+
+
+
+// Below controls the menus
+/*
+menuManager is the main function that you should use when changeing/ manipulating the menus.
+right now it simply calls two other functions to change/ replace current menus.
+*/
 let currentMenu = "null";
 function menuManager(menuName) {
     if (menuName == currentMenu) {
@@ -40,7 +55,11 @@ function menuManager(menuName) {
     }
 }
 
-
+/*
+Called by the menuManager().
+Takes in a menuName
+Uses the menu name to get correct .JSON file, then uses that to fill submenu of sideNavigationBar
+*/
 function fillMenu(menuName) {
     $.getJSON("./data/navigation-" + menuName +".json", function(data) {
         dataObj = data;
@@ -62,6 +81,11 @@ function fillMenu(menuName) {
     currentMenu = menuName;
 }
 
+/*
+Called by the menuManager();
+Takes in a menuName
+Uses menu name to find menu to destroy, sets html to '' then animates close.
+*/
 function destroyMenu(menuName) {
     let htmlString = '';
     $('#sideNavigation').children().each(function() {

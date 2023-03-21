@@ -1,0 +1,8 @@
+[
+    {
+        "type": "bottom",
+        "id": "homeLink",
+        "url": "./",
+        "text": "Home"
+    }
+]

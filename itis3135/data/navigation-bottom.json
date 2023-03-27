@@ -1,8 +1,71 @@
 [
     {
         "type": "bottom",
-        "id": "homeLink",
-        "url": "./",
-        "text": "Home"
+        "id": "CLTSite",
+        "url": "https://webpages.charlotte.edu/chardi28/",
+        "text": "CLTSite"
+    },
+
+    {
+        "type": "bottom",
+        "id": "github_link",
+        "url": "https://github.com/ChristianHardin",
+        "text": "GitHub"
+    },
+
+    {
+        "type": "bottom",
+        "id": "github_web_link",
+        "url": "https://christianhardin.github.io/",
+        "text": "GitHub.io"
+    },
+
+    {
+        "type": "bottom",
+        "id": "github_course_link",
+        "url": "https://github.com/ChristianHardin/christianhardin.github.io",
+        "text": "GitHub Course"
+    },
+
+    {
+        "type": "bottom",
+        "id": "freecodecamp_link",
+        "url": "https://www.freecodecamp.org/Christian_Hardin",
+        "text": "FreeCodeCamp"
+    },
+
+    {
+        "type": "bottom",
+        "id": "codeacademy_link",
+        "url": "https://www.codecademy.com/profiles/mega8605263637",
+        "text": "CodeAcademy"
+    },
+
+    {
+        "type": "bottom",
+        "id": "linkedIn_link",
+        "url": "https://www.linkedin.com/in/christian-hardin-a313481b9",
+        "text": "LinkedIn"
+    },
+
+    {
+        "type": "bottom",
+        "id": "validation_link_html",
+        "url": "https://validator.w3.org/check?uri=referer",
+        "text": "HTML Validation"
+    },
+
+    {
+        "type": "bottom",
+        "id": "validation_link_css",
+        "url": "https://jigsaw.w3.org/css-validator/check/referer",
+        "text": "CSS Validation"
+    },
+
+    {
+        "type": "bottom",
+        "id": "guid_link",
+        "url": "https://thehardinguild.com/",
+        "text": "Made By ©2023 The Hardin Guild"
     }
 ]

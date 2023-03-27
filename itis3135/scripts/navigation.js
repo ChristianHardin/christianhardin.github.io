@@ -9,6 +9,14 @@ $(document).ready(function() {
     $('#sideNavigation').on('click', '#categorySub', function() {
         menuManager('miscWorkMenu');
     });
+
+    $('#bottomNavigation').on('mouseover', '#validation_link_html', function() {
+        $(this).attr('href', "https://validator.w3.org/check?uri=" + location.href);
+    });
+
+    $('#bottomNavigation').on('mouseover', '#validation_link_css', function() {
+        $(this).attr('href', "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    });
 });
 
 
@@ -34,6 +42,17 @@ function onPageLoad() {
         htmlString += '</div><div id="schoolWorkMenu"></div><div id="miscWorkMenu"></div>';
         $('#sideNavigation').html(htmlString);
         menuManager("schoolWorkMenu");
+    });
+
+    $.getJSON("./data/navigation-bottom.json", function(data) {
+        dataObj = data;
+        let htmlString = '<ul>';
+
+        for (let i = 0; i < dataObj.length; i++) {
+            htmlString += '<li id="' + dataObj[i].id + '"><a href="' + dataObj[i].url + '">' + dataObj[i].text + '</a>';
+        }
+        htmlString += '</ul>';
+        $('#bottomNavigation').html(htmlString);
     });
 }
 

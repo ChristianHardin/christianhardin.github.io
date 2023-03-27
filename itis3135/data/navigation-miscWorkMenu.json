@@ -20,5 +20,14 @@
         "icon": "./images/icons/accessibility.svg",
         "iconAlt": "Accessibility-icon",
         "text": "Accessibility"
+    },
+
+    {
+        "type": "categorySub",
+        "id": "linkHobbySite",
+        "url": "../hobby/",
+        "icon": "./images/icons/hobby.svg",
+        "iconAlt": "Hobby-icon",
+        "text": "Hobby"
     }
 ]

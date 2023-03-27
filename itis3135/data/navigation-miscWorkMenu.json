@@ -1,11 +1,11 @@
 [
     {
-        "type": "categoryMisc",
+        "type": "categorySub",
         "title": "Misc. Work"
     },
 
     {
-        "type": "categoryMisc",
+        "type": "categorySub",
         "id": "linkCrappyWebsite",
         "url": "../cr@@p p y/cr@@p p y.htm",
         "icon": "./images/icons/crappy.svg",
@@ -14,11 +14,20 @@
     },
 
     {
-        "type": "categoryMisc",
+        "type": "categorySub",
         "id": "linkAccessibility",
         "url": "../Hardin_Activity_Accessibility/Hardin-Activity_Accessibility.html",
         "icon": "./images/icons/accessibility.svg",
         "iconAlt": "Accessibility-icon",
         "text": "Accessibility"
+    },
+
+    {
+        "type": "categorySub",
+        "id": "linkHobbySite",
+        "url": "../hobby/",
+        "icon": "./images/icons/hobby.svg",
+        "iconAlt": "Hobby-icon",
+        "text": "Hobby"
     }
 ]

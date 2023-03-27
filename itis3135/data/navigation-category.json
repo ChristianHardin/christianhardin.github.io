@@ -2,7 +2,7 @@
     {
         "type": "category",
         "id": "homeLink",
-        "url": "index.html",
+        "url": "./",
         "icon": "./images/icons/home.svg",
         "iconAlt": "Home-icon",
         "tooltipText": "Home"

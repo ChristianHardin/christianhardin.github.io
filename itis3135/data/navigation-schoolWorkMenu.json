@@ -1,11 +1,11 @@
 [
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "title": "School Work"
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkIntroduction",
         "url": "introduction.html",
         "icon": "./images/icons/introduction.svg",
@@ -14,7 +14,7 @@
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkContract",
         "url": "contract.html",
         "icon": "./images/icons/contract.svg",
@@ -23,7 +23,7 @@
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkTable",
         "url": "tables.html",
         "icon": "./images/icons/table.svg",
@@ -33,7 +33,7 @@
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkForm",
         "url": "forms.html",
         "icon": "./images/icons/form.svg",
@@ -43,7 +43,7 @@
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkWebsiteEval",
         "url": "website_evaluation.html",
         "icon": "./images/icons/evaluation.svg",
@@ -53,7 +53,7 @@
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkFirstScripts",
         "url": "firstscripts.html",
         "icon": "./images/icons/script.svg",
@@ -63,7 +63,7 @@
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkPolygon",
         "url": "polygon.html",
         "icon": "./images/icons/polygon.svg",
@@ -73,7 +73,7 @@
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkCalcTry",
         "url": "calculator_try.html",
         "icon": "./images/icons/calculator_try.svg",
@@ -83,7 +83,7 @@
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkCalcFcc",
         "url": "calculator_fcc.html",
         "icon": "./images/icons/calculator_fcc.svg",
@@ -93,7 +93,7 @@
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkArrays",
         "url": "arrays.html",
         "icon": "./images/icons/array.svg",
@@ -103,7 +103,7 @@
     },
 
     {
-        "type": "categorySchool",
+        "type": "categoryMain",
         "id": "linkSlideshow",
         "url": "slideshow.html",
         "icon": "./images/icons/slideshow.svg",

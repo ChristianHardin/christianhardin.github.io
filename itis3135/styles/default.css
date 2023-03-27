@@ -188,10 +188,6 @@ footer {
     text-align: center;
 }
 
-#bottomNavigation>ul>li> {
-    margin: 20px;
-}
-
 #bottomNavigation>ul>li:hover {
     background-color: var(--color-one);
 }

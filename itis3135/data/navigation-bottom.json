@@ -51,14 +51,14 @@
     {
         "type": "bottom",
         "id": "validation_link_html",
-        "url": "https://validator.w3.org/check?uri=referer",
+        "url": "https://validator.w3.org/check?uri=",
         "text": "HTML Validation"
     },
 
     {
         "type": "bottom",
         "id": "validation_link_css",
-        "url": "https://jigsaw.w3.org/css-validator/check/referer",
+        "url": "https://jigsaw.w3.org/css-validator/validator?uri=",
         "text": "CSS Validation"
     },
 

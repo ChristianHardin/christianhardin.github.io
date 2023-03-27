@@ -9,14 +9,6 @@ $(document).ready(function() {
     $('#sideNavigation').on('click', '#categorySub', function() {
         menuManager('miscWorkMenu');
     });
-
-    $('#bottomNavigation').on('mouseover', '#validation_link_html', function() {
-        $(this).attr('href', "https://validator.w3.org/check?uri=" + location.href);
-    });
-
-    $('#bottomNavigation').on('mouseover', '#validation_link_css', function() {
-        $(this).attr('href', "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-    });
 });
 
 
@@ -49,7 +41,11 @@ function onPageLoad() {
         let htmlString = '<ul>';
 
         for (let i = 0; i < dataObj.length; i++) {
-            htmlString += '<li id="' + dataObj[i].id + '"><a href="' + dataObj[i].url + '">' + dataObj[i].text + '</a>';
+            if ((dataObj[i].id == 'validation_link_css') || (dataObj[i].id == 'validation_link_html')) {
+                htmlString += '<li id="' + dataObj[i].id + '"><a href="' + dataObj[i].url + location.href + '">' + dataObj[i].text + '</a>';
+            } else {
+                htmlString += '<li id="' + dataObj[i].id + '"><a href="' + dataObj[i].url + '">' + dataObj[i].text + '</a>';
+            }
         }
         htmlString += '</ul>';
         $('#bottomNavigation').html(htmlString);

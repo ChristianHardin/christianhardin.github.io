@@ -197,6 +197,10 @@ main>* {
     width: 95%;
 }
 
+.indent40 {
+    margin-left: 40px;
+}
+
 dialog {
     width: 50%;
     background-color: var(--color-two);
@@ -250,4 +254,8 @@ dialog {
     margin: auto;
     height: auto;
     width: 500px;
+}
+
+figure {
+    text-align: center;
 }

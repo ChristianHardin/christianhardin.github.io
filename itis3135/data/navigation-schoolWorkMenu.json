@@ -110,5 +110,15 @@
         "iconAlt": "Slideshow-icon",
         "text": "Slideshow",
         "alt": "Slideshow Page"
+    },
+
+    {
+        "type": "categoryMain",
+        "id": "linkProject1",
+        "url": "project_1.html",
+        "icon": "./images/icons/project.svg",
+        "iconAlt": "Project-icon",
+        "text": "Project 1",
+        "alt": "Project 1 Page"
     }
 ]

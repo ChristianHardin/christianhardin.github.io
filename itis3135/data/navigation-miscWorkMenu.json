@@ -29,5 +29,14 @@
         "icon": "./images/icons/hobby.svg",
         "iconAlt": "Hobby-icon",
         "text": "Hobby"
+    },
+
+    {
+        "type": "categorySub",
+        "id": "linkProject2",
+        "url": "../project/",
+        "icon": "./images/icons/project.svg",
+        "iconAlt": "Project-icon",
+        "text": "Project 2"
     }
 ]

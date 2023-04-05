@@ -1,0 +1,135 @@
+:root {
+    --color-one:#F89F5B;
+    --color-two:#E53F71;
+    --color-three:#9C3587;
+    --color-four:#653780;
+    --color-five:#3F1651;
+    --text-color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: var(--text-color);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(var(--color-five), black);
+}
+
+#ribbonBar {
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    background-color: var(--color-five);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sideNavigation {
+    padding: 10px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 280px;
+    height: calc(100vh - 60px);
+    background: linear-gradient(var(--color-five), #121212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+#sideNavigation>h1{
+    padding-bottom: 10px;
+}
+
+main {
+    position: fixed;
+    top: 60px;
+    left: 300px;
+    padding: 10px;
+    height: calc(100vh - 80px);
+    width: calc(100vw - 320px);
+    background: linear-gradient(var(--color-five), #121212);
+    box-shadow: 0px 0px 4px 5px var(--color-one);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.line01 {
+    border-top: 5px solid var(--color-one);
+    width: 90%;
+    box-shadow: 0px 0px 10px .5px var(--color-one);
+}
+
+.navigationList {
+    list-style-type: none;
+    width: 90%;
+}
+
+.navigationListItem {
+    width: 100%;
+    padding: 10px 0;
+    border: .5px solid transparent;
+}
+
+
+/* https://stackoverflow.com/questions/26726436/css-bottom-border-transition-expand-from-middle */
+.navigationListItem:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+
+.navigationListItem:hover:after {
+    width: 100%;
+    background: var(--color-one);
+  }
+
+.navigationLink {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleCard {
+    text-align: center;
+}
+
+.titleCard>h1, .titleCard>p {
+    font-size: 100px;
+}
+
+.callToAction {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.callToAction>h2 {
+    color: #121212;
+    font-size: 50px;
+}
+
+.callToAction:hover {
+    background-color: var(--color-one);
+}

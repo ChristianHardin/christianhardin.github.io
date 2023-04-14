@@ -65,5 +65,14 @@
         "icon": "./images/icons/project.svg",
         "iconAlt": "Project-icon",
         "text": "Activity 13"
+    },
+
+    {
+        "type": "categorySub",
+        "id": "linkActivity14",
+        "url": "../Activity14/Hardin-Activity14.html",
+        "icon": "./images/icons/project.svg",
+        "iconAlt": "Project-icon",
+        "text": "Activity 14"
     }
 ]

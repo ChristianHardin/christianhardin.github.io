@@ -11,12 +11,6 @@ $(document).ready(function() {
     });
 });
 
-
-function test() {
-    console.log("fuck")
-    $('header').css('border-radius','10p 10px 0 0')
-}
-
 // Loads School Work Menu on page load.
 let dataObj = "schoolWorkMenu";
 function onPageLoad() {

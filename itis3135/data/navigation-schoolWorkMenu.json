@@ -120,5 +120,26 @@
         "iconAlt": "Project-icon",
         "text": "Project 1",
         "alt": "Project 1 Page"
+    },
+
+    {
+        "type": "categoryMain",
+        "id": "linkReview1",
+        "url": "review1.html",
+        "icon": "./images/icons/project.svg",
+        "iconAlt": "Project-icon",
+        "text": "Review 1",
+        "alt": "Review 1 Page"
+    },
+
+
+    {
+        "type": "categoryMain",
+        "id": "linkProject1",
+        "url": "review2.html",
+        "icon": "./images/icons/project.svg",
+        "iconAlt": "Project-icon",
+        "text": "Review 2",
+        "alt": "Review 2 Page"
     }
 ]

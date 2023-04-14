@@ -61,11 +61,18 @@
         "url": "https://jigsaw.w3.org/css-validator/validator?uri=",
         "text": "CSS Validation"
     },
-
+    
     {
         "type": "bottom",
         "id": "guid_link",
         "url": "https://thehardinguild.com/",
         "text": "Made By The Hardin Guild ©2023"
+    },
+
+    {
+        "type": "bottom",
+        "id": "cert_link",
+        "url": "https://www.freecodecamp.org/certification/Christian_Hardin/responsive-web-design",
+        "text": "Web Cert"
     }
 ]

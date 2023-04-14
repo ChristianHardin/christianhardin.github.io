@@ -47,5 +47,23 @@
         "icon": "./images/icons/project.svg",
         "iconAlt": "Project-icon",
         "text": "Activity 11"
+    },
+
+    {
+        "type": "categorySub",
+        "id": "linkActivity12",
+        "url": "../Activity12/Hardin-Activity12.html",
+        "icon": "./images/icons/project.svg",
+        "iconAlt": "Project-icon",
+        "text": "Activity 12"
+    },
+
+    {
+        "type": "categorySub",
+        "id": "linkActivity13",
+        "url": "../Activity13/Hardin-Activity13.html",
+        "icon": "./images/icons/project.svg",
+        "iconAlt": "Project-icon",
+        "text": "Activity 13"
     }
 ]

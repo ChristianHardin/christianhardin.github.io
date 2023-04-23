@@ -74,5 +74,12 @@
         "id": "cert_link",
         "url": "https://www.freecodecamp.org/certification/Christian_Hardin/responsive-web-design",
         "text": "Web Cert"
+    }, 
+
+    {
+        "type": "bottom",
+        "id": "cert_link",
+        "url": "https://www.freecodecamp.org/certification/Christian_Hardin/javascript-algorithms-and-data-structures",
+        "text": "Js Cert"
     }
 ]

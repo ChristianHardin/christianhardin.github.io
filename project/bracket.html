@@ -7,10 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./assets/Single-Elimation-Tournament-Bracket-Generator-Gracket/jquery.gracket.min.js"></script>
     <script src="./scripts/navigation.js"></script>
+    <script src="./scripts/bracket.js"></script>
 
     <!-- Style -->
     <link rel="stylesheet" href="./styles/default.css">
+    <link rel="stylesheet" href="./styles/bracket.css">
 
     <title>Project</title>
 </head>
@@ -24,56 +28,7 @@
             <div class="card">
                 <h1>Season 1</h1>
             </div>
-            <div class="bracketWrapper">
-                <div class="tier1">
-                    <div class="matchWrapper">
-                        <div class="matchItem">Team One</div>
-                        <div class="matchItem">Team Two</div>
-                    </div>
-                    <div class="matchWrapper">
-                        <div class="matchItem">Team Three</div>
-                        <div class="matchItem">Team Four</div>
-                    </div>
-                    <div class="matchWrapper">
-                        <div class="matchItem">Team Five</div>
-                        <div class="matchItem">Team Six</div>
-                    </div>
-                    <div class="matchWrapper">
-                        <div class="matchItem">Team Seven</div>
-                        <div class="matchItem">Team Eight</div>
-                    </div>
-                </div>
-                <div class="tier2">
-                    <div class="matchWrapper">
-                        <div class="matchItem">No Placement</div>
-                        <div class="matchItem">No Placement</div>
-                    </div>
-                    <div class="matchWrapper">
-                        <div class="matchItem">No Placement</div>
-                        <div class="matchItem">No Placement</div>
-                    </div>
-                    <div class="matchWrapper">
-                        <div class="matchItem">No Placement</div>
-                        <div class="matchItem">No Placement</div>
-                    </div>
-                </div>
-                <div class="tier3">
-                    <div class="matchWrapper">
-                        <div class="matchItem">No Placement</div>
-                        <div class="matchItem">No Placement</div>
-                    </div>
-                    <div class="matchWrapper">
-                        <div class="matchItem">No Placement</div>
-                        <div class="matchItem">No Placement</div>
-                    </div>
-                </div>
-                <div class="tier4">
-                    <div class="matchWrapper">
-                        <div class="matchItem">No Placement</div>
-                        <div class="matchItem">No Placement</div>
-                    </div>
-                </div>
-            </div>
+            <div class="my_gracket"></div>
         </div>
     </main>
     <footer></footer>

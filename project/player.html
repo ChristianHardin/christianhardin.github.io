@@ -7,10 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./assets/jquery-ui-1.13.2/jquery-ui.min.js"></script>
     <script src="./scripts/navigation.js"></script>
+    <script src="./scripts/accordian.js"></script>
 
     <!-- Style -->
     <link rel="stylesheet" href="./styles/default.css">
+    <link rel="stylesheet" href="./assets/jquery-ui-1.13.2/jquery-ui.min.css">
 
     <title>Project</title>
 </head>
@@ -21,9 +25,9 @@
     <nav id="sideNavigation"></nav>
     <main>
         <div class="content">
-            <div class="playerList">
-                <h1 id="playerListHead">Player List</h1>
-                <div class="playerInfo">
+            <div id="accordion">
+                <h1>Player One</h1>
+                <div id="tabs-1">
                     <div class="playerName">
                         <h1>Player One</h1>
                         <h1>Rank: Silver</h1>
@@ -32,6 +36,49 @@
                         <h1>Team: Team One</h1>
                         <h1>KDR: 2.5</h1>
                     </div>
+                </div>
+
+                <h2>Player Two</h2>
+                <div id="tabs-2">
+                    <div class="playerName">
+                        <h1>Player One</h1>
+                        <h1>Rank: Silver</h1>
+                    </div>
+                    <div class="playerStats">
+                        <h1>Team: Team One</h1>
+                        <h1>KDR: 2.5</h1>
+                    </div>
+                </div>
+
+                <h2>Player Three</h2>
+                <div id="tabs-2">
+                    <div class="playerName">
+                        <h1>Player One</h1>
+                        <h1>Rank: Silver</h1>
+                    </div>
+                    <div class="playerStats">
+                        <h1>Team: Team One</h1>
+                        <h1>KDR: 2.5</h1>
+                    </div>
+                </div>
+
+                <h2>Player Four</h2>
+                <div id="tabs-2">
+                    <div class="playerName">
+                        <h1>Player One</h1>
+                        <h1>Rank: Silver</h1>
+                    </div>
+                    <div class="playerStats">
+                        <h1>Team: Team One</h1>
+                        <h1>KDR: 2.5</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="playerList">
+                <h1 id="playerListHead">Player List</h1>
+                <div class="playerInfo">
+                    
                 </div>
                 <div class="playerInfo">
                     <div class="playerName">
@@ -53,7 +100,7 @@
                         <h1>KDR: 0.2</h1>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </main>
     <footer></footer>

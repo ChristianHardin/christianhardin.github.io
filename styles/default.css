@@ -1,0 +1,105 @@
+:root {
+    --text-color: #EBEBEB;
+    --background-color: #121212;
+    --primary-color: #C4B6B7;
+    --secondary-color: #425b4b;
+    --tertiary-color: #9ED161;
+}
+
+* {
+    color: var(--text-color);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+html {
+    background-color: var(--background-color);
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    margin-top: 10vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > img {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-size: 2.5vw;
+    margin-top: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+a {
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+a:hover {
+    border: 2px solid var(--tertiary-color);
+}
+
+a > img {
+    width: 1vw;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    main > img {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    a > img {
+        width: 2vw;
+    }
+}
+
+/* Additional Responsive Styles */
+@media (max-width: 480px) {
+    main > img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    a > img {
+        width: 3vw;
+    }
+}
+
